@@ -1,0 +1,20 @@
+uuid: 9fe096e7-9947-48bc-9cf2-ffff9933386c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - hannibal
+_core:
+  default_config_hash: 1TQP4b3ZnlzvIH9bj6cpCz_SyUHdJjLQkZnHpikjjhw
+id: hannibal_page_title
+theme: hannibal
+region: header
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: bf565e1a-cb56-4bcb-9453-b1724cd4df2d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - hannibal
+_core:
+  default_config_hash: iggZSiUKz4mYP1YPJ8SsUfFu79HIgOTt6IDy3Up59aM
+id: hannibal_powered
+theme: hannibal
+region: footer
+weight: -10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

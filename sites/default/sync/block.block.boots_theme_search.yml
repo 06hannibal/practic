@@ -1,0 +1,22 @@
+uuid: 6330491b-b09c-4056-a465-2fbd108699da
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - boots_theme
+_core:
+  default_config_hash: F3d5hyAFunLh4PhGviJF019fHn1Z3_zy5gzsQ0tX1K0
+id: boots_theme_search
+theme: boots_theme
+region: sidebar_second
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

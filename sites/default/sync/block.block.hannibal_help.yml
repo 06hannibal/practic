@@ -1,0 +1,22 @@
+uuid: 3db1297d-1d7b-4945-a1f6-605f1d8295c5
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - hannibal
+_core:
+  default_config_hash: MhtNdV__HKRTab0ZPjkPNfYL4Ng4UPBucDLoC7Rg5Eo
+id: hannibal_help
+theme: hannibal
+region: help
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

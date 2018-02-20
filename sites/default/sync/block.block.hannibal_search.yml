@@ -1,0 +1,22 @@
+uuid: f79c5892-a54a-4fc2-8ead-67ca9a0a71cc
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - hannibal
+_core:
+  default_config_hash: F3d5hyAFunLh4PhGviJF019fHn1Z3_zy5gzsQ0tX1K0
+id: hannibal_search
+theme: hannibal
+region: sidebar_second
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

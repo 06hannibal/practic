@@ -1,0 +1,22 @@
+uuid: 861eea85-f078-466b-93ff-778e5e9d0776
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - hannibal
+_core:
+  default_config_hash: fNNLN48MSGSLiqwIFywCuxH2Dk_IxDbaP0kYhg_IPrg
+id: hannibal_content
+theme: hannibal
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

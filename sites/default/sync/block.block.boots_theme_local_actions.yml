@@ -1,0 +1,20 @@
+uuid: e8055524-147e-42f5-80f0-ac27a72251ac
+langcode: en
+status: true
+dependencies:
+  theme:
+    - boots_theme
+_core:
+  default_config_hash: ffxthelqQF8xcr4GTG4HlaNNsluiHftN0pujmQpW0bQ
+id: boots_theme_local_actions
+theme: boots_theme
+region: header
+weight: 20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

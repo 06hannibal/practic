@@ -1,0 +1,22 @@
+uuid: ea11ba1c-16ea-4585-a87c-16b1d4fc84b9
+langcode: en
+status: true
+dependencies:
+  theme:
+    - hannibal
+_core:
+  default_config_hash: qHdtze2DZ2mFfaJadxjZz6epm92_SN9SAFY4yJGl8Fo
+id: hannibal_local_tasks
+theme: hannibal
+region: header
+weight: 10
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

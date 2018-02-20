@@ -1,0 +1,22 @@
+uuid: 90b63ed6-a046-47f7-9d82-b4e8bf8ef22e
+langcode: en
+status: true
+dependencies:
+  theme:
+    - boots_theme
+_core:
+  default_config_hash: qHdtze2DZ2mFfaJadxjZz6epm92_SN9SAFY4yJGl8Fo
+id: boots_theme_local_tasks
+theme: boots_theme
+region: header
+weight: 10
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

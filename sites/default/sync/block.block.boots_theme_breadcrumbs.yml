@@ -1,0 +1,22 @@
+uuid: ce22890a-b3b9-416e-a089-b96239c5b27c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - boots_theme
+_core:
+  default_config_hash: wDR9JKEATSWldBjw8du8s3G2zjEYeQf88nlld11hMLo
+id: boots_theme_breadcrumbs
+theme: boots_theme
+region: header
+weight: -100
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }
