@@ -6,3 +6,48 @@
 
 // Base-theme overrides.
 @import 'overrides';
+
+body {
+  color: red;
+  background-image: url("https://static.pexels.com/photos/531880/pexels-photo-531880.jpeg");
+}
+
+header {
+  background-image: url("https://coverfiles.alphacoders.com/430/43031.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+}
+
+.navbar-default .navbar-brand {
+  color: #fcf8e3;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: #a94442;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #fcf8e3;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #a94442;
+}
+
+img {
+  width: 40px;
+  height: 40px;
+}
+
+a {
+  color: red;
+}
+
+a:hover {
+  color: green;
+}
+
+.row {
+  background: #80a2ed;
+}
